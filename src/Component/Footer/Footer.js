@@ -9,7 +9,7 @@ function Footer(props) {
                         <div className="col-lg-4 col-md-6 col-sm-7">
                             <div className="footer__about">
                                 <div className="footer__logo">
-                                    <a href="./index.html"><img src="/assets/img/logo.png" alt /></a>
+                                    <a href="./index.html"><h3 className='logo'>Fashionista</h3></a>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     cilisis.</p>

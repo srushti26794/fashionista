@@ -37,7 +37,7 @@ function Header(props) {
                     <div className="row">
                         <div className="col-xl-3 col-lg-2">
                             <div className="header__logo">
-                                <NavLink to="./"><img src="/assets/img/logo.png" alt /></NavLink>
+                                <NavLink to="./"><h3 className='logo'>Fashionista</h3></NavLink>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-7">

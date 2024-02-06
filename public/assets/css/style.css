@@ -1789,7 +1789,7 @@ ol {
 }
 
 .product__details__button .cart-btn {
-	display: inline-block;
+	/* display: inline-block; */
 	font-size: 14px;
 	color: #ffffff;
 	background: #ca1515;
@@ -1847,7 +1847,7 @@ ol {
 }
 
 .product__details__widget ul li span {
-	display: inline-block;
+	/* display: inline-block; */
 	font-size: 14px;
 	font-weight: 600;
 	color: #111111;
@@ -3683,4 +3683,10 @@ ol {
 		width: 100%;
 		font-size: 24px;
 	}
+}
+
+.logo{
+	font-family: cursive;
+	font-weight: bold;
+	color: rgb(3, 40, 204);
 }
