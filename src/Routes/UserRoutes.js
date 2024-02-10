@@ -10,6 +10,7 @@ import Contact from '../Container/Contact/Contact';
 import ProductDetails from '../Container/ProductDetails/ProductDetails';
 import Shop from '../Container/Shop/Shop';
 import ShopCart from '../Container/ShopCart/ShopCart';
+import LoginSignup from '../Container/LoginSignup/LoginSignup';
 
 function UserRoutes(props) {
     return (
@@ -24,6 +25,7 @@ function UserRoutes(props) {
                     <Route exact path='/productdetail' element={<ProductDetails/>} />
                     <Route exact path='/shop' element={<Shop/>} />
                     <Route exact path='/shopcart' element={<ShopCart/>} />
+                    <Route exact path='/loginSignup' element={<LoginSignup/>} />
                 </Routes>
             <Footer />
         </>

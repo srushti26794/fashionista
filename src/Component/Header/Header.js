@@ -26,7 +26,7 @@ function Header(props) {
                     </div>
                     <div id="mobile-menu-wrap" />
                     <div className="offcanvas__auth">
-                        <a href="#">Login</a>
+                        <a href="loginSignup">Login</a>
                         <a href="#">Register</a>
                     </div>
                 </div>
@@ -63,8 +63,8 @@ function Header(props) {
                         <div className="col-lg-3">
                             <div className="header__right">
                                 <div className="header__right__auth">
-                                    <NavLink to="#">Login</NavLink>
-                                    <NavLink to="#">Register</NavLink>
+                                    <NavLink to="/loginSignup">Login/Register</NavLink>
+                                    {/* <NavLink to="#">Register</NavLink> */}
                                 </div>
                                 <ul className="header__right__widget">
                                     <li><span className="icon_search search-switch" /></li>
